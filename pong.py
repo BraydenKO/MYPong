@@ -16,6 +16,8 @@ deathcount = '0'
 wincount = '0'
 highestspeed = '7'
 
+#A text file that contains and saves the personal best record
+#(probably a really bad way to store this)
 with open("highestspeed_alltime.txt", "r") as f:
     alltime = f.read()
 
